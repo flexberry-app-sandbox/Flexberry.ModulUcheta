@@ -28,43 +28,42 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-услуги-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-услуги-l.title'),
-            icon: 'folder open',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-длительность-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-длительность-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-длительность-l.title'),
-            icon: 'tags',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-договор-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-договор-l.title'),
-            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'tasks',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-клиент-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-клиент-l.title'),
-            icon: 'edit',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-затр-время-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-затр-время-l.title'),
-            icon: 'calendar',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.modul-ucheta.i-i-s-modul-ucheta-расчет-ост-врем-l.title'),
-            icon: 'calendar',
+            icon: 'archive',
             children: null
           }]
         }

@@ -190,7 +190,6 @@ namespace IIS.Modul_ucheta_
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (РасчетОстВрем.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (РасчетОстВрем.Отправить method implementation)
         }
