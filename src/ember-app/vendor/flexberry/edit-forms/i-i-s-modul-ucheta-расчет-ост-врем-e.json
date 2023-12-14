@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "договор",
+      "displayAttributeName": "номер",
+      "required": true,
+      "relationName": "ОказУсл.Договор",
+      "projection": "ДоговорL",
+      "detailModelName": "i-i-s-modul-ucheta-оказ-услуг"
+    },
+    {
+      "master": "услуги",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ОказУсл.Услуги",
+      "projection": "УслугиL",
+      "detailModelName": "i-i-s-modul-ucheta-оказ-услуг"
+    }
+  ],
+  "external": false,
+  "caption": "Расчет ост врем",
+  "name": "IISModul_ucheta_РасчетОстВремE",
+  "className": "РасчетОстВремE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-расчет-ост-врем",
+      "modelProjection": "РасчетОстВремE"
+    }
+  ]
+}

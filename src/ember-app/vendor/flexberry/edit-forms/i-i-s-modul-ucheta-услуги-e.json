@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Затраченное время",
+      "projection": "ЗатрВремяL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISModul_ucheta_УслугиE",
+  "className": "УслугиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-услуги",
+      "modelProjection": "УслугиE"
+    }
+  ]
+}

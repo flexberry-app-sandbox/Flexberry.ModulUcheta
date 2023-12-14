@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-затр-время-e",
+  "editForm": "i-i-s-modul-ucheta-затр-время-e",
+  "external": false,
+  "caption": "Затр время",
+  "name": "IISModul_ucheta_ЗатрВремяL",
+  "className": "ЗатрВремяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "затраченное-время",
+      "modelProjection": "ЗатрВремяL"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Длительность",
+      "projection": "ДлительностьL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Директор",
+      "projection": "ДирОтдПоРабСКлL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиент",
+      "projection": "КлиентL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Договор",
+  "name": "IISModul_ucheta_ДоговорE",
+  "className": "ДоговорE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-договор",
+      "modelProjection": "ДоговорE"
+    }
+  ]
+}

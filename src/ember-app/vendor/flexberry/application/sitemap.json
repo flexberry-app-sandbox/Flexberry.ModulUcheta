@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Modul_ucheta_",
+  "applicationTitle": "Modul_ucheta_",
+  "items": [
+    {
+      "link": null,
+      "menuName": "modul-ucheta",
+      "caption": "Modul_ucheta_",
+      "title": "Modul_ucheta_",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-длительность-l",
+          "menuName": null,
+          "caption": "Длительность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-l",
+          "menuName": null,
+          "caption": "Дир отд по раб с кл",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-затр-время-l",
+          "menuName": null,
+          "caption": "Затр время",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-расчет-ост-врем-l",
+          "menuName": null,
+          "caption": "Расчет ост врем",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-e",
+  "editForm": "i-i-s-modul-ucheta-дир-отд-по-раб-с-кл-e",
+  "external": false,
+  "caption": "Дир отд по раб с кл",
+  "name": "IISModul_ucheta_ДирОтдПоРабСКлL",
+  "className": "ДирОтдПоРабСКлL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "директор",
+      "modelProjection": "ДирОтдПоРабСКлL"
+    }
+  ]
+}

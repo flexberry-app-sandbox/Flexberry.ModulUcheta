@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Длительность",
+  "name": "IISModul_ucheta_ДлительностьE",
+  "className": "ДлительностьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-длительность",
+      "modelProjection": "ДлительностьE"
+    }
+  ]
+}

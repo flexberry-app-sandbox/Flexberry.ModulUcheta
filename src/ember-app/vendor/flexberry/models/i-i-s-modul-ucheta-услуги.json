@@ -1,0 +1,127 @@
+﻿{
+  "name": "IISModul_ucheta_Услуги",
+  "modelName": "i-i-s-modul-ucheta-услуги",
+  "className": "Услуги",
+  "nameSpace": "IIS.Modul_ucheta_",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "i-i-s-modul-ucheta-услуга",
+      "flexberryType": "Услуга",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "затрВремя",
+      "relatedTo": "затраченное-время",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПереченьУслугE",
+      "modelName": "i-i-s-modul-ucheta-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПереченьУслугL",
+      "modelName": "i-i-s-modul-ucheta-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "УслугиE",
+      "modelName": "i-i-s-modul-ucheta-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Время",
+          "lookupValueField": "время",
+          "relationName": "Затраченное время",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "standard",
+          "caption": "Затраченное время",
+          "name": "затрВремя",
+          "relatedTo": "затраченное-время",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "УслугиL",
+      "modelName": "i-i-s-modul-ucheta-услуги",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Затраченное время",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "время",
+              "caption": "Время",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Время",
+          "name": "затрВремя",
+          "relatedTo": "затраченное-время",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

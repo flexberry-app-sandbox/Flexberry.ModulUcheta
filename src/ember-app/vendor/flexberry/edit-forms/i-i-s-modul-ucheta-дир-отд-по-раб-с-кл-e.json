@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Дир отд по раб с кл",
+  "name": "IISModul_ucheta_ДирОтдПоРабСКлE",
+  "className": "ДирОтдПоРабСКлE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "директор",
+      "modelProjection": "ДирОтдПоРабСКлE"
+    }
+  ]
+}
